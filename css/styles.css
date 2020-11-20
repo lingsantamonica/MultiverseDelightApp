@@ -1,0 +1,168 @@
+/* General */
+.body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.colored-section{
+  background-color: #FF4C68;
+  color:#FFF;
+}
+
+.white-section{
+  background-color: #FFF;
+}
+
+/* Headings */
+.bigHeading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.sectionHeading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+}
+
+
+
+p {
+  color: #8f8f8f;
+}
+
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Nav Bar Section */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Title Section */
+
+.titleImage {
+  width: 400px;
+  height: 700px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+/* Feature Section */
+.features {
+  position: relative;
+}
+
+.featureBox {
+  padding: 5%;
+}
+.featureTitle{
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+.testimonials-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.DouleFun {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.SwimingSuit {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+.press {
+  padding-bottom: 3%;
+}
+
+.pressImage {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+.pricing {
+  padding: 100px;
+}
+
+.priceColume {
+  padding: 3% 2%;
+}
+
+.priceText{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/* Footer Section */
+
+.fIcon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1480px) {
+  .title {
+    text-align: center;
+  }
+
+  .titleImage {
+    position: static;
+    transform: rotate(0);
+  }
+}
